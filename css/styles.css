@@ -1,0 +1,80 @@
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#title {
+    background: #ff4d69;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    color: #f5f8f8;
+    margin-bottom: 50px;
+}
+
+.title-bg-image {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    top: -40%;
+    transform: rotate(45deg);
+}
+
+.title-bg-image img {
+    object-fit: cover;
+    width: 70%;
+}
+
+.app-store-button {
+    color: #fff;
+    background: #33383d;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.app-store-button svg {
+    transform: translateY(-20%);
+}
+
+.google-play-button {
+    color: #f5f8f8;
+    background: transparent;
+    border: 2px solid #f5f8f8;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.features-heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.features-par {
+    color: #8f8f8f;
+}
+
+.features-icon {
+    margin-bottom: 10px;
+    transition: .2s ease-in;
+}
+
+.features-el {
+    transition: .1s linear;
+}
+
+.features-el:hover {
+    outline: 1px solid #0d6efd;
+}
+
+.features-el:hover .features-icon {
+    fill: #ff4c68;
+}
+
+@media (max-width: 992px) {
+    .features-el {
+        margin-bottom: 50px;
+    }
+}
